@@ -32,7 +32,7 @@ Thonny serve per i file `.py`: non mostra i `.md` formattati.
 | Cartella | Contenuto |
 | --- | --- |
 | [`pre-corso/`](pre-corso/README.md) | Da leggere e fare prima della lezione 1: installazione, storia, curiosità |
-| [`risorse/`](risorse/guida_thonny.md) | [Guida a Thonny](risorse/guida_thonny.md), [scheda riassuntiva](risorse/scheda_riassuntiva.md) da stampare, [glossario](risorse/glossario.md), [strumenti e librerie](risorse/strumenti_e_librerie.md) utili divisi per argomento |
+| [`risorse/`](risorse/guida_thonny.md) | [Guida a Thonny](risorse/guida_thonny.md), [strumenti e librerie](risorse/strumenti_e_librerie.md) utili divisi per argomento |
 
 ## Come eseguire un file
 
