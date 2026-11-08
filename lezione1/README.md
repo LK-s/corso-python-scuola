@@ -132,7 +132,7 @@ Leggere sempre l'**ultima riga**: dice il tipo di errore e la riga del programma
 
 ## Esercizi
 
-Salvate ogni esercizio in un file diverso (`es1.py`, `es2.py`, …).
+Salvate ogni esercizio in un file diverso (`es1.py`, `es2.py`, …). Le soluzioni sono in `soluzioni/`: provate a risolvere gli esercizi prima di guardarle.
 
 1. **Sfera.** Chiedete il raggio e stampate volume (4/3 π r³) e superficie (4 π r²) con 3 decimali.
    *Prova: raggio 2 → volume 33.510, superficie 50.265.*
