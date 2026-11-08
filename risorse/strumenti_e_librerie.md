@@ -178,7 +178,7 @@ Per la statistica elementare basta il modulo `statistics` (vedi «Matematica e c
 | [doctest](https://docs.python.org/it/3/library/doctest.html) | Verifica una funzione con gli esempi scritti nella sua documentazione, senza installare nulla | — |
 | [pdb](https://docs.python.org/it/3/library/pdb.html) | Debugger a riga di comando, incluso in Python | — |
 | [pytest](https://docs.pytest.org) | Test automatici: verificare che una funzione dia i risultati attesi | — |
-| [Ruff](https://docs.astral.sh/ruff/) | Segnala errori di scrittura e di stile e riformatta il codice | — |
+| [Ruff](https://docs.astral.sh/ruff/) | Segnala errori di scrittura e di stile e riformatta il codice. Uso e installazione con Thonny nella [guida a Thonny](guida_thonny.md) | Facoltativo |
 
 ## Dove continuare a imparare
 
