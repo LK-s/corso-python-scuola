@@ -33,9 +33,11 @@ Thonny serve per i file `.py`: non mostra i `.md` formattati.
 | --- | --- |
 | [`pre-corso/`](pre-corso/README.md) | Da leggere e fare prima della lezione 1: installazione, storia, curiosità |
 | [`lezione1/`](lezione1/README.md) | Primi passi: numeri, variabili, testo, input, il modulo `math` |
-| [`risorse/`](risorse/guida_thonny.md) | [Guida a Thonny](risorse/guida_thonny.md), [strumenti e librerie](risorse/strumenti_e_librerie.md) utili divisi per argomento |
+| [`lezione2/`](lezione2/README.md) | Decisioni, cicli, liste, funzioni |
+| [`risorse/`](risorse/guida_thonny.md) | [Guida a Thonny](risorse/guida_thonny.md), [scheda riassuntiva](risorse/scheda_riassuntiva.md) da stampare, [glossario](risorse/glossario.md), [strumenti e librerie](risorse/strumenti_e_librerie.md) utili divisi per argomento |
 
-In ogni cartella di lezione: `README.md` (dispensa ed esercizi) ed `esempi/` (codice mostrato a lezione).
+In ogni cartella di lezione: `README.md` (dispensa ed esercizi), `esempi/` (codice mostrato a lezione)
+e `soluzioni/` (soluzioni degli esercizi: provate a risolverli prima di guardarle).
 
 ## Come eseguire un file
 
