@@ -70,6 +70,18 @@ math.pi   math.sqrt(x)   math.sin(x)   math.log10(x)   math.floor(x)   math.ceil
 ```
 Le funzioni trigonometriche lavorano in **radianti**.
 
+### Addendum: perché `0.1 + 0.2` non fa `0.3`
+`0.1 + 0.2` dà `0.30000000000000004` e `0.1 + 0.2 == 0.3` è `False`. **Non è un limite di Python**: il risultato è
+lo stesso in quasi tutti i linguaggi (C, Java, JavaScript, Fortran…), perché dipende da come i computer memorizzano i
+numeri decimali (standard IEEE 754, in base 2): come 1/3 in base 10 ha infinite cifre, `0.1` ha infinite cifre in base 2
+e va troncato. L'errore è minuscolo (dell'ordine di 10⁻¹⁶), ma per questo non si confrontano due `float` con `==`:
+si arrotonda con `round()` o si controlla che la differenza sia piccola (lo faremo nella lezione 2).
+Una raccolta del risultato in decine di linguaggi: <https://0.30000000000000004.com/>.
+
+Quando servono risultati esatti o più cifre, ci sono strumenti dedicati:
+- `fractions` (sotto): frazioni esatte; `decimal`: decimali in base 10, con la precisione scelta (per esempio per i calcoli con il denaro);
+- `mpmath`: calcoli con migliaia di cifre (da installare, vedi [strumenti e librerie](../risorse/strumenti_e_librerie.md)).
+
 ### Numeri esatti: il modulo `fractions`
 ```python
 from fractions import Fraction
