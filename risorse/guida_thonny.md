@@ -73,6 +73,56 @@ e indicare il percorso ottenuto con `py -c "import sys; print(sys.executable)"` 
 Per installare librerie: *Strumenti → Gestisci pacchetti* (*Tools → Manage packages*); se una libreria non è ancora compatibile con
 la 3.15, vedere [strumenti e librerie](strumenti_e_librerie.md).
 
+## Controllare il codice con un linter (facoltativo)
+
+Un **linter** legge il programma **senza eseguirlo** (analisi statica) e segnala errori probabili e problemi di stile:
+nomi non definiti, `import` mai usati, variabili create e non usate, righe troppo lunghe. Quello consigliato è
+[Ruff](https://docs.astral.sh/ruff/): veloce, un solo programma da installare. Alternative: `pylint` (più lento,
+più severo e con più messaggi) e `flake8`.
+
+**Thonny non controlla il codice in tempo reale**, a differenza di altri editor (per esempio Visual Studio Code, che
+sottolinea l'errore mentre si scrive): il controllo si lancia a mano, dalla Shell, dopo aver salvato il file:
+
+```
+!ruff check nomefile.py
+```
+
+Il `!` iniziale dice a Thonny di eseguire un comando di sistema. Se la Shell non è nella cartella del file, indicare
+il percorso completo. Esempio: con questo programma
+
+```python
+import math
+raggio = 3
+print("Raggio:", raggi)
+```
+
+Ruff risponde, senza eseguire nulla, con `F401 `math` imported but unused` (import inutilizzato) e
+`F821 Undefined name `raggi`` (nome non definito), con la riga e la colonna di ciascuno.
+
+### Linter ed errore a runtime: che differenza c'è
+| | Linter (analisi statica) | Interprete (errore a runtime) |
+| --- | --- | --- |
+| Quando | Prima: legge il testo del programma, che non parte | Durante l'esecuzione |
+| Cosa vede | Tutto il file, comprese le righe che non verrebbero mai eseguite | Solo le righe che il programma raggiunge |
+| Esempio | Segnala `raggi` anche se quella riga è in un ramo mai percorso | `NameError` solo quando la riga viene eseguita |
+| Errori che trova | Nomi inesistenti, import inutili, stile; **non** conosce i valori dei dati | Anche quelli che dipendono dai dati: `ZeroDivisionError`, `ValueError` per un `input()` sbagliato |
+| Affidabilità | Può segnalare cose che non sono errori (consigli di stile) | Se compare, l'errore c'è davvero |
+
+I due strumenti si completano: il linter trova un problema prima ancora di eseguire, ma un programma può passare
+il linter e fallire lo stesso (`10 / 0`), e viceversa un avviso del linter non impedisce al programma di partire.
+
+### Installare il linter: attenzione all'interprete
+Il linter va installato **per lo stesso interprete che usa Thonny**. Se in *Strumenti → Opzioni → Interprete* è stato
+indicato l'interprete 3.15 installato con il Python install manager (vedi sopra), installarlo dal **Prompt dei comandi**:
+
+```
+py -m pip install ruff
+```
+
+Se invece lo si installa dal gestore dei plugin di Thonny (*Strumenti → Gestisci plug-in*), viene installato per
+l'interprete incluso in Thonny, non per il nostro, e il comando `!ruff` nella Shell non funziona.
+Per controllare: `py -m ruff --version` nel Prompt dei comandi deve stampare la versione.
+
 ## Se qualcosa non va
 
 | Sintomo | Cosa fare |
