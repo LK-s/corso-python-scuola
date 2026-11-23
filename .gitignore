@@ -13,3 +13,8 @@ desktop.ini
 *.tmp
 *.bak
 *~
+
+# File creati dagli esempi della lezione 3
+lezione3/esempi/appunti.txt
+lezione3/dati/temperature_medie.csv
+lezione3/dati/riepilogo_voti.csv

@@ -81,11 +81,11 @@ I primi sette moduli fanno parte della libreria standard e non richiedono instal
 | [random](https://docs.python.org/it/3/library/random.html) | Numeri casuali per simulazioni e giochi | Sì (lezione 2, bonus) |
 | [fractions](https://docs.python.org/it/3/library/fractions.html) | Frazioni esatte: `Fraction(1, 3) + Fraction(1, 6)` dà `1/2` | — |
 | [decimal](https://docs.python.org/it/3/library/decimal.html) | Decimali a precisione scelta, senza gli errori di arrotondamento dei numeri in virgola mobile | — |
-| [statistics](https://docs.python.org/it/3/library/statistics.html) | Media, mediana e deviazione standard di una lista di dati | — |
+| [statistics](https://docs.python.org/it/3/library/statistics.html) | Media, mediana e deviazione standard di una lista di dati | Citato (lezione 3) |
 | [cmath](https://docs.python.org/it/3/library/cmath.html) | Funzioni per i numeri complessi | — |
 | [itertools](https://docs.python.org/it/3/library/itertools.html) | Permutazioni, combinazioni, prodotto cartesiano: combinatoria e probabilità | — |
 | [SymPy](https://www.sympy.org) | Calcolo simbolico: equazioni, derivate, integrali, limiti, semplificazioni, formule in LaTeX | Forse (lezione 4) |
-| [NumPy](https://numpy.org) | Array e calcolo su vettori e matrici, molto veloce | Forse (lezione 4) |
+| [NumPy](https://numpy.org) | Array e calcolo su vettori e matrici, molto veloce | Sì (lezione 4, solo per i grafici) |
 | [SciPy](https://scipy.org) | Integrazione numerica, equazioni differenziali, ottimizzazione, interpolazione | — |
 | [mpmath](https://mpmath.org) | Aritmetica a precisione arbitraria, per esempio migliaia di cifre di π | — |
 
@@ -93,7 +93,7 @@ I primi sette moduli fanno parte della libreria standard e non richiedono instal
 
 | Nome | A cosa serve | Nel corso |
 | --- | --- | --- |
-| [csv](https://docs.python.org/it/3/library/csv.html) | Leggere e scrivere file CSV | Forse (lezione 3) |
+| [csv](https://docs.python.org/it/3/library/csv.html) | Leggere e scrivere file CSV | Sì (lezione 3) |
 | [json](https://docs.python.org/it/3/library/json.html) | File JSON, formato di scambio di molti servizi online | — |
 | [pathlib](https://docs.python.org/it/3/library/pathlib.html) | Cartelle e percorsi dei file in modo indipendente dal sistema | — |
 | [datetime](https://docs.python.org/it/3/library/datetime.html) | Date e orari: differenze tra date, giorni della settimana, formattazione | — |
@@ -106,7 +106,7 @@ I primi sette moduli fanno parte della libreria standard e non richiedono instal
 
 | Nome | A cosa serve | Nel corso |
 | --- | --- | --- |
-| [matplotlib](https://matplotlib.org) | Grafici di funzioni, istogrammi, dispersione; base di molte altre librerie | Forse (lezione 3) |
+| [matplotlib](https://matplotlib.org) | Grafici di funzioni, istogrammi, dispersione; base di molte altre librerie | Sì (lezione 4) |
 | [seaborn](https://seaborn.pydata.org) | Grafici statistici più curati, costruiti su matplotlib | — |
 | [Plotly](https://plotly.com/python/) | Grafici interattivi nel browser: zoom e valori al passaggio del mouse | — |
 | [turtle](https://docs.python.org/it/3/library/turtle.html) | Disegno con la «tartaruga», utile per geometria e cicli; inclusa in Python | — |

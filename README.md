@@ -34,11 +34,13 @@ Thonny serve per i file `.py`: non mostra i `.md` formattati.
 | [`pre-corso/`](pre-corso/README.md) | Da leggere e fare prima della lezione 1: installazione, storia, curiosità |
 | [`lezione1/`](lezione1/README.md) | Primi passi: numeri, variabili, testo, input, il modulo `math` |
 | [`lezione2/`](lezione2/README.md) | Decisioni, cicli, liste, funzioni |
-| [`avanzato/`](avanzato/README.md) | Esempi più impegnativi da guardare dopo il corso (metodo di Newton, Monte Carlo, grafici con matplotlib) |
+| [`lezione3/`](lezione3/README.md) | Dati: dizionari, file di testo e CSV, moduli, installare una libreria con `pip` |
+| [`lezione4/`](lezione4/README.md) | Grafici con matplotlib e strumenti scientifici (programma provvisorio) |
+| [`avanzato/`](avanzato/README.md) | Esempi più impegnativi da guardare dopo il corso (metodo di Newton, Monte Carlo, grafici con matplotlib, gestione degli errori) |
 | [`risorse/`](risorse/guida_thonny.md) | [Guida a Thonny](risorse/guida_thonny.md), [scheda riassuntiva](risorse/scheda_riassuntiva.md) da stampare, [glossario](risorse/glossario.md), [strumenti e librerie](risorse/strumenti_e_librerie.md) utili divisi per argomento |
 
 In ogni cartella di lezione: `README.md` (dispensa ed esercizi), `esempi/` (codice mostrato a lezione).
-Per la lezione 1 c'è anche `soluzioni/` (soluzioni degli esercizi: provate a risolverli prima di guardarle).
+Per le lezioni 1, 2 e 3 c'è anche `soluzioni/` (soluzioni degli esercizi: provate a risolverli prima di guardarle).
 
 ## Come eseguire un file
 
