@@ -10,6 +10,7 @@ Quasi tutti usano solo la libreria standard di Python; `parabola.py` e `statisti
 | [`metodo_di_newton.py`](metodo_di_newton.py) | Risolvere equazioni con il metodo di Newton, con funzioni passate come argomenti |
 | [`parabola.py`](parabola.py) | Disegnare la parabola e le soluzioni dell'equazione di secondo grado con matplotlib, fino ai cursori interattivi per a, b, c |
 | [`statistica_dati.py`](statistica_dati.py) | Dati di una lista con matplotlib: istogramma e curva normale, box plot, distribuzione cumulativa, grafico di probabilità normale (Q-Q), teorema del limite centrale |
+| [`gestione_errori.py`](gestione_errori.py) | Gestire gli errori con `try` / `except`, `else`, `finally` e `raise`: prevedere i problemi invece di far fermare il programma |
 
 Altri esempi (per esempio simulazioni e calcolo simbolico) potranno essere aggiunti in seguito.
 
