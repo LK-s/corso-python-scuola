@@ -90,6 +90,8 @@ il risultato con l'originale.
 
 ## Esercizi
 
+Nelle slide gli esercizi sono raggruppati: *Esercizio 1* = 1 e 2 (il bonus con `a = 0` è l'esercizio 3); *Esercizio 2* = 4 e 5; *Esercizio 3* = 3 e 6 (bonus: 7). L'esercizio 8 è un altro bonus e il 9 è il compito per la prossima volta. Le soluzioni sono in `soluzioni/`: provate a risolvere gli esercizi prima di guardarle.
+
 1. **Pari e multiplo di 3.** Chiedete un intero e dite se è pari o dispari e se è multiplo di 3.
    *Prova:* 18 → pari e multiplo di 3; 7 → dispari e non multiplo di 3.
 2. **Giudizio.** Da voto (0–10) a giudizio: ≥9 Ottimo, ≥8 Distinto, ≥7 Buono, ≥6 Sufficiente,
@@ -106,3 +108,4 @@ il risultato con l'originale.
 7. **Bonus – Indovina il numero.** Il computer sceglie un numero tra 1 e 100 (`import random`,
    `random.randint(1, 100)`); voi provate e il programma risponde «troppo alto/basso».
 8. **Bonus – Tabella.** Stampate una tabella °C → °F da −10 a 40 con passo 10. *Prova:* −10 °C → 14.0 °F; 40 °C → 104.0 °F.
+9. **Bonus – Anno bisestile.** Scrivete `e_bisestile(anno)`: un anno è bisestile se è divisibile per 4, ma non per 100, a meno che lo sia per 400. *Prova:* 1900 → `False`; 2000 → `True`; 2024 → `True`; 2100 → `False`.
