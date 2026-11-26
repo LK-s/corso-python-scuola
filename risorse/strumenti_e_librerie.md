@@ -84,7 +84,7 @@ I primi sette moduli fanno parte della libreria standard e non richiedono instal
 | [statistics](https://docs.python.org/it/3/library/statistics.html) | Media, mediana e deviazione standard di una lista di dati | Citato (lezione 3) |
 | [cmath](https://docs.python.org/it/3/library/cmath.html) | Funzioni per i numeri complessi | — |
 | [itertools](https://docs.python.org/it/3/library/itertools.html) | Permutazioni, combinazioni, prodotto cartesiano: combinatoria e probabilità | — |
-| [SymPy](https://www.sympy.org) | Calcolo simbolico: equazioni, derivate, integrali, limiti, semplificazioni, formule in LaTeX | Forse (lezione 4) |
+| [SymPy](https://www.sympy.org) | Calcolo simbolico: equazioni, derivate, integrali, limiti, semplificazioni, formule in LaTeX | Solo approfondimento (`avanzato/`) |
 | [NumPy](https://numpy.org) | Array e calcolo su vettori e matrici, molto veloce | Sì (lezione 4, solo per i grafici) |
 | [SciPy](https://scipy.org) | Integrazione numerica, equazioni differenziali, ottimizzazione, interpolazione | — |
 | [mpmath](https://mpmath.org) | Aritmetica a precisione arbitraria, per esempio migliaia di cifre di π | — |
