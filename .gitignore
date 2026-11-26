@@ -18,3 +18,7 @@ desktop.ini
 lezione3/esempi/appunti.txt
 lezione3/dati/temperature_medie.csv
 lezione3/dati/riepilogo_voti.csv
+
+# File creati dagli esempi della lezione 4
+lezione4/esempi/*.png
+lezione4/soluzioni/*.png
